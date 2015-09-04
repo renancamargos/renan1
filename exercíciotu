@@ -1,0 +1,23 @@
+#exercicio
+
+#variáveis são palavras, siglas ou expressões as quais se pode atribuir um valor único	
+# os operadores aritimeticos são Adição (+) Subtração (-) Multiplicação (*) Divisão (/) Exponenciação (**) Resto (%)
+# métodos são habilidades que os objetos possuem.  .upcase .click .length
+# O operador de atribuição é = . Em ruby usa-se = para atribuir valores a uma variável.
+# ja a igualdade é feita com == e diferença com !=
+# para somar números sucessivamente a uma variavel há uma forma suscinta: usas-se x += 1 (ao inves de x = x + 1) ( ou -= *= /=)
+# os comparadores são: Menor que: <, Menor ou igual a: <=, Maior que: >, Maior ou igual a: >=
+# Ruby tem três: e (&&), ou (||), e não (!). Operadores booleanos resultam em valores booleanos: true (verdadeiro) ou false (falso).
+
+
+puts "digite seu nome para validar a entrada"
+user_name = gets.chomp
+username.capitalize!
+puts "digite sua idade"
+idade = integer(gets.chomp)
+
+if
+  idade < 18 puts "Desculpe Sr. #{user_name}, entrada nao permitida para menores de 18 anos"
+  else
+  puts "entrada liberada"
+end

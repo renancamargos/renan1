@@ -1,0 +1,20 @@
+#exercicio
+
+#variáveis são palavras, siglas ou expressões as quais se pode atribuir um valor único	
+# os operadores aritimeticos são Adição (+) Subtração (-) Multiplicação (*) Divisão (/) Exponenciação (**) Resto (%)
+# métodos são habilidades que os objetos possuem.  .upcase .click .length
+
+lindo = "renan"
+puts lindo.upcase
+
+puts "digite seu nome para validar a entrada"
+user_name = gets.chomp
+username.capitalize!
+puts "digite sua idade"
+idade = integer(gets.chomp)
+
+if
+  idade < 18 puts "Desculpe Sr. #{user_name}, entrada nao permitida para menores de 18 anos"
+  else
+  puts "entrada liberada"
+end
